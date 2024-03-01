@@ -52,6 +52,8 @@ barchartGC(~infected + treatment,data=triUmp, type="percent")
 
 ```
 
+According to the first graph it shows that the frequency of 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -61,6 +63,9 @@ table1 <- xtabs(~infected + treatment, data=triUmp)
 rowPerc(table1)
 colPerc(table1)
 ```
+
+According to the provided data, placebo carries a higher average number compared to the drug on both results. The first result has the drug at 40.87 and the placebo at 59.13 when looking at aids. The second result shows the drug being at 3.99 while the placebo carries a higher number at 5.49.
+
 
 ## Inferential Results
 
