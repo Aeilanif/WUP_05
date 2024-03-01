@@ -17,9 +17,9 @@ triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 
 A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the DrugUsers, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
 
-$H_0$: The vaccine (drug) is not effective in preventing aids among drug users
+$H_0$: The drug is not effective in preventing aids among drug users
 
-$H_A$:The vaccine (drug) is effective in preventing aids among drug users
+$H_A$:The drug is effective in preventing aids among drug users
 
 # Methods
 
@@ -52,8 +52,9 @@ barchartGC(~infected + treatment,data=triUmp, type="percent")
 
 ```
 
-According to the first graph it shows that the frequency of 
+When looking at the bar graph, it looks like there are more cases of aids when placebo is taken. There appears to be a higher percentage compared to the drug.
 
+### Numerical Descriptive Results
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -77,6 +78,10 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+Looking at the results the Chi-squared data concludes that the P value is 0.0000002333. The fishers exact test for count data estimates the odd ratio to be 0.72 which is not equal to 1.
+
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+While running these test and looking at these graphs that were placed... it seems to be that the vaccine (drug) is very effective in preventing aids among drug users.
