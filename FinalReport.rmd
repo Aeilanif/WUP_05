@@ -84,4 +84,4 @@ Looking at the results the Chi-squared data concludes that the P value is 0.0000
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-While running these test and looking at these graphs that were placed... it seems to be that the vaccine (drug) is very effective in preventing aids among drug users.
+While running these test and looking at these graphs that were put in place... it seems to be that the vaccine (drug) is very effective in preventing aids among drug users.All forms of data analysis performed support this conclusion and support the rejection of the null hypothesis.However the confidence interval of the drug is somewhat low for what would be ideal in a preventative drug.
